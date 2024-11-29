@@ -1,6 +1,8 @@
 import { useContext } from "react";
-import { ThemeContext } from "./ThemeContext";
+import ThemeContext from "./contexts/ThemeContext";
 import './index.css'
+
+
 export default function FancyThemeToggler() {
     const { theme, toggleTheme } = useContext(ThemeContext);
 

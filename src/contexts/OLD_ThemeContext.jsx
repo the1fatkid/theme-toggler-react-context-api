@@ -1,3 +1,5 @@
+// This is another way of writing the code where we do not create two different file for ThemeContext and ThemeProvider
+
 import { createContext, useState, useEffect} from "react"
 
 //Create a Context
